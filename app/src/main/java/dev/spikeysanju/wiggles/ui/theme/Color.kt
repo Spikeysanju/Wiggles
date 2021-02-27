@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.androiddevchallenge.ui.theme
+package dev.spikeysanju.wiggles.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
