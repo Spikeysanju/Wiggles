@@ -1,4 +1,4 @@
-![GitHub Cards Preview](https://github.com/Spikeysanju/Wiggles/blob/master/art/GITHUB-COVER.png?raw=true)
+![GitHub Cards Preview](https://github.com/Spikeysanju/Wiggles/blob/main/art/GITHUB-COVER.png?raw=true)
 
 # Wiggles 🐶
 Beautiful Puppy adoption app built to Demonstrate the Jetpack Compose UI for Android Dev Challenge *Made with love ❤️ by [Spikeysanju](https://github.com/Spikeysanju)*
@@ -22,14 +22,14 @@ Beautiful Puppy adoption app built to Demonstrate the Jetpack Compose UI for And
 ## Day Mode 🌞
 Home | Details | Details (Scrolled)
 --- | --- | --- |
-![](https://github.com/Spikeysanju/Wiggles/blob/master/art/Home.png) | ![](https://github.com/Spikeysanju/Expenso/blob/master/art/Details.png) | ![](https://github.com/Spikeysanju/Expenso/blob/master/art/Details-scrolled.png)
+![](https://github.com/Spikeysanju/Wiggles/blob/main/art/Home.png) | ![](https://github.com/Spikeysanju/Wiggles/blob/main/art/Details.png) | ![](https://github.com/Spikeysanju/Wiggles/blob/main/art/Details.png)
 
 <br />
 
 ## We Support Dark Mode Too 🌚
 Home | Details | Details (Scrolled)
 --- | --- | --- |
-![](https://github.com/Spikeysanju/Wiggles/blob/master/art/Dark-Home.png) | ![](https://github.com/Spikeysanju/Expenso/blob/master/art/Dark-Details.png) | ![](https://github.com/Spikeysanju/Expenso/blob/master/art/Dark-Details-scrolled.png)
+![](https://github.com/Spikeysanju/Wiggles/blob/main/art/Dark-Home.png) | ![](https://github.com/Spikeysanju/Wiggles/blob/main/art/Dark-Details.png) | ![](https://github.com/Spikeysanju/Wiggles/blob/main/art/Dark-Details.png)
 
 <br />
 
