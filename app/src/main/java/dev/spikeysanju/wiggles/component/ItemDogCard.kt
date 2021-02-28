@@ -115,7 +115,10 @@ fun ItemDogCard(dog: Dog, onItemClicked: (dog: Dog) -> Unit) {
                     )
                 }
             }
-            Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.End
+            ) {
                 GenderTag(dog.gender)
             }
         }
