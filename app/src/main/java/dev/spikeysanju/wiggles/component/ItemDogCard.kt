@@ -114,7 +114,6 @@ fun ItemDogCard(dog: Dog, onItemClicked: (dog: Dog) -> Unit) {
                         style = typography.caption
                     )
                 }
-
             }
             Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
                 GenderTag(dog.gender)
