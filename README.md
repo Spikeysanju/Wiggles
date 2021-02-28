@@ -5,7 +5,7 @@ Beautiful Puppy adoption app built to Demonstrate the Jetpack Compose UI for And
 
 <br />
 
-***Try latest Expenso app apk from below 👇***
+***Try latest Wiggles app apk from below 👇***
 
 [![Wiggles](https://img.shields.io/badge/Wiggles-APK-black.svg?style=for-the-badge&logo=android)](https://github.com/Spikeysanju/Wiggles/releases/download/v1.0.0-alpha01/Wiggles.apk)
 
