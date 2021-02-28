@@ -17,4 +17,17 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!--Bg-->
+    <color name="bg">#F4F7FD</color>
+    <color name="background">#FFFFFF</color>
+
+    <!--Text color-->
+    <color name="text">#1E3054</color>
+
+    <!--    gender color-->
+    <color name="red">#EB5757</color>
+    <color name="blue">#006AF6</color>
+
+    <color name="card">#F9F9F9</color>
 </resources>

@@ -20,30 +20,67 @@ import dev.spikeysanju.wiggles.model.Dog
 import dev.spikeysanju.wiggles.model.Owner
 
 object FakeDogDatabase {
-
-    val ownerData = Owner("Spikey", "Android Developer & UX Designer", R.drawable.owner)
-
+    val owner = Owner("Spikey Sanju", "Developer & Pet Lover", R.drawable.owner)
     val dogList = listOf(
         Dog(
-            1, "Parkinson", 1.4, "Male", "Brown",
-            12.1, "381", R.drawable.blue_dog, "", ownerData
-        ),
-
-        Dog(
-            2, "Parkinson", 1.4, "Male", "Brown",
-            12.1, "429", R.drawable.white_dog, "", ownerData
-        ),
-        Dog(
-            3, "Parkinson", 1.4, "Male", "Brown",
-            12.1, "587", R.drawable.red_dog, "", ownerData
-        ),
-        Dog(
-            4, "Parkinson", 1.4, "Male", "Brown",
-            12.1, "629", R.drawable.yellow_dog, "", ownerData
+            0,
+            "Hachiko",
+            3.5,
+            "Male",
+            "Brown",
+            12.9,
+            "389m away",
+            R.drawable.orange_dog,
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
+            owner
         ),
         Dog(
-            5, "Parkinson", 1.4, "Male", "Brown",
-            12.1, "887", R.drawable.orange_dog, "", ownerData
+            1,
+            "Skooby Doo",
+            3.5,
+            "Male",
+            "Gold",
+            12.4,
+            "412m away",
+            R.drawable.blue_dog,
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
+            owner
+        ),
+        Dog(
+            2,
+            "Miss Agnes",
+            3.5,
+            "Female",
+            "White",
+            9.6,
+            "879m away",
+            R.drawable.red_dog,
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
+            owner
+        ),
+        Dog(
+            3,
+            "Cyrus",
+            3.5,
+            "Male",
+            "Black",
+            8.2,
+            "672m away",
+            R.drawable.yellow_dog,
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
+            owner
+        ),
+        Dog(
+            4,
+            "Shelby",
+            3.5,
+            "Female",
+            "Choco",
+            14.9,
+            "982m away",
+            R.drawable.white_dog,
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
+            owner
         )
     )
 }

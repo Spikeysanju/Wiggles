@@ -24,6 +24,6 @@ data class Dog(
     val weight: Double,
     val location: String,
     val image: Int,
-    val story: String,
+    val about: String,
     val owner: Owner
 )
