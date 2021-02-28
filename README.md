@@ -1,4 +1,4 @@
-![GitHub Cards Preview](https://github.com/Spikeysanju/Expenso/blob/master/art/EXPENSO-ANDROID.png?raw=true)
+![GitHub Cards Preview](https://github.com/Spikeysanju/Wiggles/blob/master/art/GITHUB-COVER.png?raw=true)
 
 # Wiggles 🐶
 Beautiful Puppy adoption app built to Demonstrate the Jetpack Compose UI for Android Dev Challenge *Made with love ❤️ by [Spikeysanju](https://github.com/Spikeysanju)*
@@ -76,7 +76,7 @@ If this project help you reduce time to develop, you can give me a cup of coffee
 
 ## Credits 🤗
 
-- 🤓 Icons are from [tablericons.com](https://tablericons.com)
+- Icons are from [tablericons.com](https://tablericons.com)
 - Heartly congratulations for Jetpack Compose Team who worked hard to make Compose great ♥️
 
 
