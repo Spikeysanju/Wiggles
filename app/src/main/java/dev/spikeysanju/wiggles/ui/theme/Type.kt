@@ -63,7 +63,8 @@ val typography = Typography(
     ),
     body2 = TextStyle(
         fontFamily = Sailec,
-        fontSize = 14.sp
+        fontSize = 14.sp,
+        lineHeight = 20.sp
     ),
     button = TextStyle(
         fontFamily = Sailec,

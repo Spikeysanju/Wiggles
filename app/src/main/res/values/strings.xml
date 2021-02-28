@@ -10,4 +10,6 @@
       the License.
       -->
     <string name="app_name">AndroidDevChallenge</string>
+    <string name="text_home">Home</string>
+    <string name="text_details">Details</string>
 </resources>

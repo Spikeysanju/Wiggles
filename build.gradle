@@ -18,6 +18,8 @@ buildscript {
     ext.kotlin_version = '1.4.30'
     ext.compose_version = '1.0.0-beta01'
     ext.coroutines_version = '1.4.2'
+    ext.nav_compose_version = "1.0.0-alpha08"
+
 
     repositories {
         google()
