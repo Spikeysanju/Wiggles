@@ -16,11 +16,19 @@
 package dev.spikeysanju.wiggles.component
 
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Card
 import androidx.compose.material.Icon
-import androidx.compose.material.MaterialTheme
+import androidx.compose.material.MaterialTheme.colors
 import androidx.compose.material.MaterialTheme.typography
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
@@ -44,7 +52,7 @@ fun ItemDogCard(dog: Dog) {
             .padding(8.dp)
             .clip(RoundedCornerShape(16.dp)),
         elevation = 0.dp,
-        backgroundColor = MaterialTheme.colors.onSurface
+        backgroundColor = colors.onSurface
     ) {
         Row(
             modifier = Modifier
@@ -69,7 +77,7 @@ fun ItemDogCard(dog: Dog) {
                 Text(
                     text = dog.name,
                     modifier = Modifier.padding(0.dp, 0.dp, 12.dp, 0.dp),
-                    color = MaterialTheme.colors.surface,
+                    color = colors.surface,
                     fontWeight = FontWeight.Bold,
                     style = typography.subtitle1
                 )
@@ -84,7 +92,7 @@ fun ItemDogCard(dog: Dog) {
                         append(dog.about)
                     },
                     modifier = Modifier.padding(0.dp, 0.dp, 12.dp, 0.dp),
-                    color = MaterialTheme.colors.surface,
+                    color = colors.surface,
                     style = typography.caption
                 )
 
@@ -102,7 +110,7 @@ fun ItemDogCard(dog: Dog) {
                     Text(
                         text = dog.location,
                         modifier = Modifier.padding(8.dp, 12.dp, 12.dp, 0.dp),
-                        color = MaterialTheme.colors.surface,
+                        color = colors.surface,
                         style = typography.caption
                     )
                 }
