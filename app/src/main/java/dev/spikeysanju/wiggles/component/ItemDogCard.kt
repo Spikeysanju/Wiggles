@@ -96,7 +96,7 @@ fun ItemDogCard(dog: Dog, onItemClicked: (dog: Dog) -> Unit) {
                     style = typography.caption
                 )
 
-                Row(verticalAlignment = Alignment.CenterVertically) {
+                Row(verticalAlignment = Alignment.Bottom) {
 
                     val location: Painter = painterResource(id = R.drawable.ic_location)
 
