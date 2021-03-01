@@ -54,7 +54,7 @@ fun DogInfoCard(name: String, gender: String, location: String) {
             )
             Spacer(modifier = Modifier.height(8.dp))
 
-            Row(verticalAlignment = Alignment.CenterVertically) {
+            Row(verticalAlignment = Alignment.Bottom) {
 
                 val locationIcon: Painter = painterResource(id = R.drawable.ic_location)
 
