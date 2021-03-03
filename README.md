@@ -52,6 +52,10 @@ You need to have [Android Studio Beta 3 or above](https://developer.android.com/
 
 <br>
 
+## iOS Version 📱
+Checkout the iOS version of this app <a href="https://github.com/sameersyd/Wiggles-iOS">Wiggles-iOS</a>
+
+<br>
 
 ## Contribute 🤝
 If you want to contribute to this app, you're always welcome!
