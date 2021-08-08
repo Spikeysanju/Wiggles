@@ -19,6 +19,7 @@ import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
+import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
@@ -26,7 +27,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import dev.spikeysanju.wiggles.ui.theme.MyTheme
 import dev.spikeysanju.wiggles.view.WigglesMain
-
+@ExperimentalAnimationApi
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -53,6 +54,7 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
+@ExperimentalAnimationApi
 @Preview("Dark Theme", widthDp = 360, heightDp = 640)
 @Composable
 fun DarkPreview() {
