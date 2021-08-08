@@ -19,6 +19,7 @@ buildscript {
     ext.compose_version = '1.0.0'
     ext.coroutines_version = '1.4.2'
     ext.nav_compose_version = '2.4.0-alpha06'
+    ext.accompanist_verison = '0.16.0'
 
 
     repositories {
