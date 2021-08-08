@@ -66,6 +66,15 @@ fun WigglesMain(toggleTheme: () -> Unit) {
                     )
                 ) + fadeIn(animationSpec = tween(300))
             },
+            exitTransition = { _, _ ->
+                slideOutHorizontally(
+                    targetOffsetX = { 300 },
+                    animationSpec = tween(
+                        durationMillis = 300,
+                        easing = FastOutSlowInEasing
+                    )
+                ) + fadeOut(animationSpec = tween(300))
+            },
             arguments = listOf(navArgument("id") { type = NavType.IntType })
         ) {
             Details(navController, it.arguments?.getInt("id") ?: 0)
