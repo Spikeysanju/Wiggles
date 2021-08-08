@@ -23,7 +23,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
-import androidx.navigation.compose.navigate
 import dev.spikeysanju.wiggles.component.ItemDogCard
 import dev.spikeysanju.wiggles.component.TopBar
 import dev.spikeysanju.wiggles.model.Dog
@@ -44,7 +43,7 @@ fun Home(navController: NavHostController, dogList: List<Dog>, toggleTheme: () -
                 ItemDogCard(
                     it,
                     onItemClicked = { dog ->
-                        navController.navigate("details/${dog.id}//${dog.name}/${dog.location}")
+                        navController.navigate("details/${dog.id}/${dog.name}/${dog.location}")
                     }
                 )
             }
